@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    background-image: url("../IMAGES/shawn\ 2.png");
+    font-family: sans-serif;
+    font-size: 35px;
+    color: hsl(0, 0%, 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-70%);
+    text-align: center;
+}
+button{
+    width: 120px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 15px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: rgb(196, 195, 195);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+    
+}
+button:hover {
+    background-color: #ffffff;
+}
+button{
+    box-shadow: 0 0 10px .5px;
+}
+button:active {
+    box-shadow: 0 5px #b2b2b2;
+    transform: translateY(10px);
+}
+button{
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: none;
+    color: #484848;
+}
+
+#learnmore{
+    background-image: url("../IMAGES/shawn.png");
+}
