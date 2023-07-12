@@ -59,6 +59,10 @@ a:hover {
     color: #484848;
 }
 
-#learnmore{
-    background-image: url("../IMAGES/shawn.png");
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: #484848;
 }
